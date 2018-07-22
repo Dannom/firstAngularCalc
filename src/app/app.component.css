@@ -1,0 +1,24 @@
+.container{
+    display:block; 
+    width:50%;
+    margin:auto;
+    padding:10px;
+    border-radius:5px;
+    background-color:lightblue;
+    color:#fff;
+    border: 2px solid black;
+    overflow:hidden;
+}
+
+.result-container{
+    display:flex;
+    flex-direction: column;
+}
+
+p{
+    align-self:center;
+}
+
+.result{
+    align-self: center;
+}
