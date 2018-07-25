@@ -1,9 +1,9 @@
-import { Component, OnInit, EventEmitter,Output } from '@angular/core';
+import { Component, OnInit, EventEmitter,Output, } from '@angular/core';
 
 @Component({
   selector: 'app-child-comp',
   templateUrl: './child-comp.component.html',
-  styleUrls: ['./child-comp.component.css']
+  styleUrls: ['./child-comp.component.css'],
 })
 export class ChildCompComponent implements OnInit {
 

@@ -39,7 +39,7 @@ export class AppComponent {
         case "/":
         this.result= this.num1 / this.num2;
           break;
-        case "+":
+        case "x":
         this.result= this.num1 * this.num2;
           break;
 
