@@ -2,15 +2,19 @@
 
 
 <div class="container">
-  <h6 style="text-align:center">my First Angular Calculator</h6>
-  <app-child-comp (passNum)="showPassedNum1($event)"></app-child-comp>
-  <app-operator (passOperator)="showPassedOperator($event)"></app-operator>
-  <app-child-comp (passNum)="showPassedNum2($event)"></app-child-comp>
 
 
-  <div class="result-container">
+      <h6 style="text-align:center">my First Angular Calculator</h6>
+      <app-child-comp (passNum)="showPassedNum1($event)"></app-child-comp>
+      <app-operator (passOperator)="showPassedOperator($event)"></app-operator>
+      <app-child-comp (passNum)="showPassedNum2($event)"></app-child-comp>
+
+
+  <div appDirect class="result-container">
     <p>{{num1}} {{operator}} {{num2}} </p>
     <button class="result btn btn-primary" (click)="calc()">=</button>
     <br>
     <p>{{result}}</p>
   </div>
+</div>
+
