@@ -1,6 +1,10 @@
-# AngularExp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
+# Angular Calculator
+
+This is my first project using the Angular framework. It is a simple Calculator, making a use of two components, costum events binding and bootstrap design classes.
+
+The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
 
